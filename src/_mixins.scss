@@ -1,0 +1,65 @@
+@import "variables";
+
+@mixin avatar($size) {
+  border-radius: 50%;
+  width: $size;
+  border: solid 1px;
+}
+
+@mixin avatar_reacts($size) {
+  vertical-align: middle;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+}
+
+%info_reactions {
+  color: $color-primary;
+  font-weight: bold;
+}
+
+%published_input {
+  flex: 1;
+  outline-width: 0;
+  border: solid 1px $color-background;
+  padding: 15px 20px;
+  margin: 0 30px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+%publish_button {
+  font-size: $size-button;
+  text-align: center;
+  padding: 2px 18px;
+  cursor: pointer;
+}
+
+%card_bottom {
+  display: flex;
+  margin-top: -20px;
+  background-color: lighten($color-text-gray, 54%);
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: $shadow-setting-card;
+  width: 100%;
+  z-index: 1;
+}
+
+%content_userInfo {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 15px;
+  margin: 5px;
+}
+
+%text-info {
+  font-size: $size-text-content;
+  color: $color-primary;
+}
+
+%text-sub-info {
+  font-size: $size-comment-list;
+  color: $color-primary;
+}

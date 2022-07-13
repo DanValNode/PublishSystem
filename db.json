@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "c1fb2282-9969-4b1a-ab28-3a35cb60a57a",
+      "text": "hola alejo",
+      "author": "jonathan B",
+      "authorId": "66fe9ab2-c893-4e70-8426-a4044c08c125",
+      "date": 1656086928169
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": "197d5a25-9062-4c2d-9394-765701fbb614",
+      "body": "todo bien",
+      "postId": "c1fb2282-9969-4b1a-ab28-3a35cb60a57a",
+      "author": "jonathan B",
+      "authorId": "66fe9ab2-c893-4e70-8426-a4044c08c125",
+      "date": 1656086972020
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
