@@ -28,3 +28,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Preview of app
+![alt text](https://github.com/DanValNode/PublishSystem/blob/main/public/socialNet.png?raw=true)
